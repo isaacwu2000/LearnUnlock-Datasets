@@ -1,0 +1,2176 @@
+[
+    {
+        "id": 1,
+        "messages": [
+            {
+                "role": "student",
+                "content": "how do i add fractions"
+            },
+            {
+                "role": "ai",
+                "content": "To add fractions, you need a common denominator. For example, to add <span class=\"katex\"><span class=\"katex-html\"><span class=\"base\"><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\"><span class=\"mord\">1</span></span><span class=\"frac-line\"></span><span class=\"vlist\"><span class=\"mord\">2</span></span></span></span></span></span></span></span> and <span class=\"katex\"><span class=\"katex-html\"><span class=\"base\"><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\"><span class=\"mord\">1</span></span><span class=\"frac-line\"></span><span class=\"vlist\"><span class=\"mord\">3</span></span></span></span></span></span></span></span>, first find the LCD (6), then convert: $\\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}$. What fractions are you trying to add?"
+            },
+            {
+                "role": "student",
+                "content": "1/4 + 2/3"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "messages": [
+            {
+                "role": "student",
+                "content": "what is the quadratic formula"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "messages": [
+            {
+                "role": "student",
+                "content": "can you help me solve 2x + 5 = 13"
+            },
+            {
+                "role": "ai",
+                "content": "Sure! To solve $2x + 5 = 13$, we need to isolate $x$. What's the first step you think we should take?"
+            },
+            {
+                "role": "student",
+                "content": "subtract 5 from both sides?"
+            },
+            {
+                "role": "ai",
+                "content": "Exactly! Subtracting 5 from both sides gives us $2x = 8$. Now what should we do to get $x$ by itself?"
+            },
+            {
+                "role": "student",
+                "content": "divide by 2"
+            },
+            {
+                "role": "ai",
+                "content": "Perfect! So $x = 4$. You can check by plugging back in: $2(4) + 5 = 8 + 5 = 13$ ✓. Great job! Want to try a harder one?"
+            },
+            {
+                "role": "student",
+                "content": "sure"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "messages": [
+            {
+                "role": "student",
+                "content": "i dont understand negative exponents"
+            },
+            {
+                "role": "ai",
+                "content": "A negative exponent means \"take the reciprocal.\" So $x^{-n} = \\frac{1}{x^n}$. For example, $2^{-3} = \\frac{1}{2^3} = \\frac{1}{8}$. Think of it as the exponent telling you which side of the fraction the base goes on. Does that make sense?"
+            },
+            {
+                "role": "student",
+                "content": "so 5^-2 would be 1/25?"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "messages": [
+            {
+                "role": "student",
+                "content": "how do i factor x^2 + 5x + 6"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "messages": [
+            {
+                "role": "student",
+                "content": "help me with this problem: find all real solutions to x^4 - 5x^2 + 4 = 0"
+            },
+            {
+                "role": "ai",
+                "content": "Great problem! This is a quadratic in disguise. Let's substitute $u = x^2$, so the equation becomes $u^2 - 5u + 4 = 0$. Can you factor this?"
+            },
+            {
+                "role": "student",
+                "content": "(u - 4)(u - 1) = 0"
+            },
+            {
+                "role": "ai",
+                "content": "Perfect! So $u = 4$ or $u = 1$. Now remember $u = x^2$, so we have $x^2 = 4$ or $x^2 = 1$. What are all the values of $x$?"
+            },
+            {
+                "role": "student",
+                "content": "x = 2, -2, 1, -1"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "messages": [
+            {
+                "role": "student",
+                "content": "what is a derivative"
+            },
+            {
+                "role": "ai",
+                "content": "A derivative measures the instantaneous rate of change of a function - essentially the slope at any point. For a function $f(x)$, the derivative $f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$. Geometrically, it's the slope of the tangent line. Are you just starting calculus?"
+            },
+            {
+                "role": "student",
+                "content": "yeah, how do i actually calculate one"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "messages": [
+            {
+                "role": "student",
+                "content": "prove that the square root of 2 is irrational"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "messages": [
+            {
+                "role": "student",
+                "content": "i have a geometry problem: in triangle ABC, angle A = 40 degrees and angle B = 60 degrees. what is angle C?"
+            },
+            {
+                "role": "ai",
+                "content": "In any triangle, the sum of all angles equals $180°$. So if $\\angle A = 40°$ and $\\angle B = 60°$, then $\\angle C = 180° - 40° - 60°$. What do you get?"
+            },
+            {
+                "role": "student",
+                "content": "80 degrees"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "messages": [
+            {
+                "role": "student",
+                "content": "can you explain the chain rule"
+            },
+            {
+                "role": "ai",
+                "content": "The chain rule is for differentiating composite functions. If $y = f(g(x))$, then $\\frac{dy}{dx} = f'(g(x)) \\cdot g'(x)$. Think of it as \"derivative of the outside times derivative of the inside.\" For example, if $y = (3x + 1)^5$, what's the outside function and inside function?"
+            },
+            {
+                "role": "student",
+                "content": "outside is something to the 5th power, inside is 3x + 1"
+            },
+            {
+                "role": "ai",
+                "content": "Exactly! So using the chain rule: $\\frac{dy}{dx} = 5(3x+1)^4 \\cdot 3 = 15(3x+1)^4$. We took the derivative of the outside ($5u^4$) and multiplied by the derivative of the inside ($3$). Want to try one?"
+            },
+            {
+                "role": "student",
+                "content": "yes please"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "messages": [
+            {
+                "role": "student",
+                "content": "what is modular arithmetic"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "messages": [
+            {
+                "role": "student",
+                "content": "AMC problem: how many integers between 1 and 100 are divisible by 3 or 5?"
+            },
+            {
+                "role": "ai",
+                "content": "Great problem! This uses inclusion-exclusion. Let $A$ = multiples of 3, $B$ = multiples of 5. We want $|A \\cup B| = |A| + |B| - |A \\cap B|$. Can you find how many multiples of 3 are between 1 and 100?"
+            },
+            {
+                "role": "student",
+                "content": "floor(100/3) = 33"
+            },
+            {
+                "role": "ai",
+                "content": "Perfect! And multiples of 5?"
+            },
+            {
+                "role": "student",
+                "content": "20"
+            },
+            {
+                "role": "ai",
+                "content": "Right! Now for $|A \\cap B|$, we need multiples of both 3 and 5, which means multiples of $\\text{lcm}(3,5) = 15$. How many multiples of 15 are there?"
+            },
+            {
+                "role": "student",
+                "content": "6, so the answer is 33 + 20 - 6 = 47"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "messages": [
+            {
+                "role": "student",
+                "content": "how do i find the equation of a line through two points"
+            },
+            {
+                "role": "ai",
+                "content": "First find the slope using $m = \\frac{y_2 - y_1}{x_2 - x_1}$, then use point-slope form: $y - y_1 = m(x - x_1)$. What two points do you have?"
+            },
+            {
+                "role": "student",
+                "content": "(2, 3) and (4, 7)"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "messages": [
+            {
+                "role": "student",
+                "content": "what is a group in abstract algebra"
+            },
+            {
+                "role": "ai",
+                "content": "A group is a set $G$ with a binary operation $*$ satisfying four axioms: 1) Closure: $a * b \\in G$, 2) Associativity: $(a*b)*c = a*(b*c)$, 3) Identity: there exists $e$ where $e*a = a*e = a$, 4) Inverse: for each $a$, there exists $a^{-1}$ where $a*a^{-1} = e$. A simple example is the integers under addition. What draws you to group theory?"
+            },
+            {
+                "role": "student",
+                "content": "im trying to understand symmetry groups"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "messages": [
+            {
+                "role": "student",
+                "content": "how do i complete the square"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "messages": [
+            {
+                "role": "student",
+                "content": "solve the integral of x*e^x dx"
+            },
+            {
+                "role": "ai",
+                "content": "This requires integration by parts! The formula is $\\int u \\, dv = uv - \\int v \\, du$. For $\\int x e^x dx$, a good choice is $u = x$ (so $du = dx$) and $dv = e^x dx$ (so $v = e^x$). Can you apply the formula?"
+            },
+            {
+                "role": "student",
+                "content": "xe^x - integral of e^x dx = xe^x - e^x + C"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "messages": [
+            {
+                "role": "student",
+                "content": "AIME problem: find the remainder when 2^100 is divided by 7"
+            },
+            {
+                "role": "ai",
+                "content": "Great problem! Let's find a pattern in powers of 2 mod 7:\n$2^1 \\equiv 2$\n$2^2 \\equiv 4$\n$2^3 \\equiv 8 \\equiv 1 \\pmod{7}$\n\nThe pattern repeats every 3! Since $2^3 \\equiv 1 \\pmod{7}$, what can you say about $2^{99}$?"
+            },
+            {
+                "role": "student",
+                "content": "2^99 = (2^3)^33 which is 1^33 = 1 mod 7"
+            },
+            {
+                "role": "ai",
+                "content": "Exactly! So $2^{100} = 2^{99} \\cdot 2 \\equiv 1 \\cdot 2 \\equiv 2 \\pmod{7}$. The remainder is $\\boxed{2}$. This technique of finding cycles is very powerful for modular arithmetic!"
+            },
+            {
+                "role": "student",
+                "content": "oh that's clever, using fermat's little theorem basically"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "messages": [
+            {
+                "role": "student",
+                "content": "what's the difference between permutations and combinations"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "messages": [
+            {
+                "role": "student",
+                "content": "can you explain eigenvalues"
+            },
+            {
+                "role": "ai",
+                "content": "An eigenvalue $\\lambda$ of a matrix $A$ is a scalar where $Av = \\lambda v$ for some nonzero vector $v$ (the eigenvector). Geometrically, when you apply the transformation $A$, eigenvectors only get scaled (by $\\lambda$), not rotated. To find eigenvalues, solve $\\det(A - \\lambda I) = 0$. Are you working with a specific matrix?"
+            },
+            {
+                "role": "student",
+                "content": "yeah the matrix [[2, 1], [1, 2]]"
+            },
+            {
+                "role": "ai",
+                "content": "Good choice! We need $\\det\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix} = 0$. This gives $(2-\\lambda)^2 - 1 = 0$. Can you solve for $\\lambda$?"
+            },
+            {
+                "role": "student",
+                "content": "(2-lambda)^2 = 1, so 2-lambda = 1 or -1, meaning lambda = 1 or 3"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "messages": [
+            {
+                "role": "student",
+                "content": "simplify sqrt(48)"
+            },
+            {
+                "role": "ai",
+                "content": "To simplify $\\sqrt{48}$, find the largest perfect square factor. $48 = 16 \\times 3$, and $16$ is a perfect square. So $\\sqrt{48} = \\sqrt{16 \\times 3} = \\sqrt{16} \\cdot \\sqrt{3} = 4\\sqrt{3}$. Make sense?"
+            },
+            {
+                "role": "student",
+                "content": "yeah, what about sqrt(72)"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "messages": [
+            {
+                "role": "student",
+                "content": "olympiad problem: prove that for all positive integers n, n^3 - n is divisible by 6"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "messages": [
+            {
+                "role": "student",
+                "content": "how do i solve systems of equations"
+            },
+            {
+                "role": "ai",
+                "content": "There are several methods: substitution, elimination, or matrices. For example, given:\n$2x + y = 7$\n$x - y = 2$\n\nWith elimination, we can add the equations. What happens when you add them?"
+            },
+            {
+                "role": "student",
+                "content": "3x = 9 so x = 3"
+            },
+            {
+                "role": "ai",
+                "content": "Perfect! Now substitute $x = 3$ back into either equation to find $y$."
+            },
+            {
+                "role": "student",
+                "content": "2(3) + y = 7, so y = 1"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "messages": [
+            {
+                "role": "student",
+                "content": "what is the law of cosines"
+            },
+            {
+                "role": "ai",
+                "content": "The Law of Cosines generalizes the Pythagorean theorem to any triangle: $c^2 = a^2 + b^2 - 2ab\\cos(C)$, where $C$ is the angle opposite side $c$. It's useful when you know two sides and the included angle (SAS), or all three sides (SSS). Do you have a specific problem?"
+            },
+            {
+                "role": "student",
+                "content": "find side c if a = 5, b = 7, and angle C = 60 degrees"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "messages": [
+            {
+                "role": "student",
+                "content": "what is a ring in abstract algebra"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "messages": [
+            {
+                "role": "student",
+                "content": "find the limit as x approaches 0 of sin(x)/x"
+            },
+            {
+                "role": "ai",
+                "content": "This is one of the most important limits in calculus! If you try direct substitution, you get $\\frac{0}{0}$, which is indeterminate. This limit equals $1$, and can be proven using the squeeze theorem or L'Hôpital's rule. Geometrically, as the angle gets smaller, $\\sin(x) \\approx x$. Have you learned L'Hôpital's rule yet?"
+            },
+            {
+                "role": "student",
+                "content": "not yet, what is it"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "messages": [
+            {
+                "role": "student",
+                "content": "AMC problem: a fair coin is flipped 4 times. what is the probability of getting exactly 2 heads?"
+            },
+            {
+                "role": "ai",
+                "content": "We need to count favorable outcomes over total outcomes. Total outcomes: $2^4 = 16$. For exactly 2 heads, we need to choose which 2 of the 4 flips are heads. How many ways can we do that?"
+            },
+            {
+                "role": "student",
+                "content": "C(4,2) = 6"
+            },
+            {
+                "role": "ai",
+                "content": "Exactly! So the probability is $\\frac{6}{16} = \\frac{3}{8}$. You could also use the binomial probability formula: $P(X=k) = \\binom{n}{k} p^k (1-p)^{n-k}$ where $n=4$, $k=2$, $p=\\frac{1}{2}$."
+            },
+            {
+                "role": "student",
+                "content": "that gives the same answer right"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "messages": [
+            {
+                "role": "student",
+                "content": "how do you multiply matrices"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "messages": [
+            {
+                "role": "student",
+                "content": "solve the differential equation dy/dx = 2xy"
+            },
+            {
+                "role": "ai",
+                "content": "This is a separable differential equation! We can separate variables: $\\frac{dy}{y} = 2x \\, dx$. Now integrate both sides. What do you get?"
+            },
+            {
+                "role": "student",
+                "content": "ln|y| = x^2 + C"
+            },
+            {
+                "role": "ai",
+                "content": "Perfect! Now solve for $y$ by exponentiating both sides: $|y| = e^{x^2 + C} = e^C \\cdot e^{x^2}$. Since $e^C$ is just another constant, we write $y = Ae^{x^2}$ where $A$ can be any nonzero constant (or zero, giving the trivial solution)."
+            },
+            {
+                "role": "student",
+                "content": "oh so the general solution is y = Ae^(x^2)"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "messages": [
+            {
+                "role": "student",
+                "content": "what are complex numbers"
+            },
+            {
+                "role": "ai",
+                "content": "Complex numbers extend the real numbers by including $i = \\sqrt{-1}$. A complex number has the form $a + bi$ where $a$ is the real part and $b$ is the imaginary part. They let us solve equations like $x^2 + 1 = 0$ (which has no real solutions). What would you like to know about them?"
+            },
+            {
+                "role": "student",
+                "content": "how do you multiply them"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "messages": [
+            {
+                "role": "student",
+                "content": "putnam problem: prove that the sum 1 + 1/2 + 1/3 + ... + 1/n is never an integer for n > 1"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "messages": [
+            {
+                "role": "student",
+                "content": "i dont understand logarithms"
+            },
+            {
+                "role": "ai",
+                "content": "Logarithms are the inverse of exponents. If $b^x = y$, then $\\log_b(y) = x$. In other words, $\\log_b(y)$ asks \"what power of $b$ gives $y$?\" For example, $\\log_2(8) = 3$ because $2^3 = 8$. What part is confusing you?"
+            },
+            {
+                "role": "student",
+                "content": "the log rules like log(ab)"
+            },
+            {
+                "role": "ai",
+                "content": "The key log rules follow from exponent rules:\n• $\\log(ab) = \\log(a) + \\log(b)$ (product rule)\n• $\\log(\\frac{a}{b}) = \\log(a) - \\log(b)$ (quotient rule)\n• $\\log(a^n) = n\\log(a)$ (power rule)\n\nThey come from: if $a = 10^x$ and $b = 10^y$, then $ab = 10^{x+y}$. Want to try simplifying something?"
+            },
+            {
+                "role": "student",
+                "content": "yeah can you give me an example"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "messages": [
+            {
+                "role": "student",
+                "content": "find the area under y = x^2 from 0 to 3"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "messages": [
+            {
+                "role": "student",
+                "content": "olympiad problem: in how many ways can you tile a 2xn board with 1x2 dominoes?"
+            },
+            {
+                "role": "ai",
+                "content": "Classic problem! Let $f(n)$ be the number of ways. Think about the rightmost column: either it has one vertical domino, or two horizontal dominoes. If vertical, we have $f(n-1)$ ways for the rest. If horizontal, we must fill both rows and have $f(n-2)$ ways. So $f(n) = f(n-1) + f(n-2)$. What does this recurrence remind you of?"
+            },
+            {
+                "role": "student",
+                "content": "fibonacci numbers!"
+            },
+            {
+                "role": "ai",
+                "content": "Exactly! With base cases $f(1) = 1$ and $f(2) = 2$, we get the Fibonacci sequence (shifted). So $f(n) = F_{n+1}$ where $F$ is the standard Fibonacci sequence. Beautiful connection!"
+            },
+            {
+                "role": "student",
+                "content": "wow thats really cool how it connects"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "messages": [
+            {
+                "role": "student",
+                "content": "what is mathematical induction"
+            },
+            {
+                "role": "ai",
+                "content": "Mathematical induction is a proof technique for statements about natural numbers. Two steps: 1) Base case: prove it's true for $n=1$ (or some starting value), 2) Inductive step: assume it's true for $n=k$, prove it's true for $n=k+1$. Like dominoes falling - if the first falls and each knocks down the next, they all fall! Want to try a proof?"
+            },
+            {
+                "role": "student",
+                "content": "sure, can we prove 1 + 2 + 3 + ... + n = n(n+1)/2"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "messages": [
+            {
+                "role": "student",
+                "content": "what is the determinant of a matrix"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "messages": [
+            {
+                "role": "student",
+                "content": "AIME problem: find the number of positive integers less than 1000 that are divisible by neither 5 nor 7"
+            },
+            {
+                "role": "ai",
+                "content": "Let's use complementary counting with inclusion-exclusion. Instead of counting what we want, let's count what we don't want (divisible by 5 OR 7) and subtract from 999. How many positive integers less than 1000 are divisible by 5?"
+            },
+            {
+                "role": "student",
+                "content": "floor(999/5) = 199"
+            },
+            {
+                "role": "ai",
+                "content": "Good! Divisible by 7?"
+            },
+            {
+                "role": "student",
+                "content": "floor(999/7) = 142"
+            },
+            {
+                "role": "ai",
+                "content": "And divisible by both 5 and 7 (i.e., by 35)?"
+            },
+            {
+                "role": "student",
+                "content": "floor(999/35) = 28. so by inclusion-exclusion: 199 + 142 - 28 = 313 are divisible by 5 or 7. the answer is 999 - 313 = 686"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "messages": [
+            {
+                "role": "student",
+                "content": "how do i rationalize a denominator"
+            },
+            {
+                "role": "ai",
+                "content": "To rationalize a denominator, multiply top and bottom by something that eliminates the radical. For $\\frac{1}{\\sqrt{2}}$, multiply by $\\frac{\\sqrt{2}}{\\sqrt{2}}$ to get $\\frac{\\sqrt{2}}{2}$. For $\\frac{1}{\\sqrt{a} + \\sqrt{b}}$, use the conjugate $\\sqrt{a} - \\sqrt{b}$. What expression are you working with?"
+            },
+            {
+                "role": "student",
+                "content": "1/(sqrt(3) + 1)"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "messages": [
+            {
+                "role": "student",
+                "content": "what is a vector space"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "messages": [
+            {
+                "role": "student",
+                "content": "find the sum of the infinite series 1 + 1/2 + 1/4 + 1/8 + ..."
+            },
+            {
+                "role": "ai",
+                "content": "This is a geometric series with first term $a = 1$ and common ratio $r = \\frac{1}{2}$. For $|r| < 1$, the sum is $S = \\frac{a}{1-r}$. Can you apply the formula?"
+            },
+            {
+                "role": "student",
+                "content": "S = 1/(1 - 1/2) = 1/(1/2) = 2"
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "messages": [
+            {
+                "role": "student",
+                "content": "olympiad: find all functions f: R -> R such that f(x + y) = f(x) + f(y) for all real x, y"
+            },
+            {
+                "role": "ai",
+                "content": "This is Cauchy's functional equation! First, let's find some values. What happens if you set $x = y = 0$?"
+            },
+            {
+                "role": "student",
+                "content": "f(0) = f(0) + f(0), so f(0) = 0"
+            },
+            {
+                "role": "ai",
+                "content": "Good! Now set $y = -x$. What do you get?"
+            },
+            {
+                "role": "student",
+                "content": "f(0) = f(x) + f(-x), so f(-x) = -f(x). its odd!"
+            },
+            {
+                "role": "ai",
+                "content": "Excellent! Now can you show that $f(nx) = nf(x)$ for positive integers $n$, and extend to rationals? The key insight is that any continuous (or monotonic, or bounded) solution must be $f(x) = cx$ for some constant $c$."
+            },
+            {
+                "role": "student",
+                "content": "for integers i can use induction. f(2x) = f(x) + f(x) = 2f(x), etc"
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "messages": [
+            {
+                "role": "student",
+                "content": "SAT problem: if 3x - 7 = 14, what is the value of 6x - 14?"
+            },
+            {
+                "role": "ai",
+                "content": "Great SAT strategy question! You could solve for $x$ first, but there's a faster way. Notice that $6x - 14 = 2(3x - 7)$. Since $3x - 7 = 14$, what's $6x - 14$?"
+            },
+            {
+                "role": "student",
+                "content": "oh just multiply by 2, so 28"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "messages": [
+            {
+                "role": "student",
+                "content": "how do i find the mean of a data set"
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "messages": [
+            {
+                "role": "student",
+                "content": "the average of 5 numbers is 12. if one number is removed, the average becomes 10. what number was removed?"
+            },
+            {
+                "role": "ai",
+                "content": "Let's work backwards! If the average of 5 numbers is 12, what's the total sum of all 5 numbers?"
+            },
+            {
+                "role": "student",
+                "content": "5 times 12 = 60"
+            },
+            {
+                "role": "ai",
+                "content": "Perfect! Now after removing one number, the average of 4 numbers is 10. What's the sum of the remaining 4 numbers?"
+            },
+            {
+                "role": "student",
+                "content": "4 times 10 = 40, so the removed number is 60 - 40 = 20"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "messages": [
+            {
+                "role": "student",
+                "content": "what is standard deviation"
+            },
+            {
+                "role": "ai",
+                "content": "Standard deviation measures how spread out data is from the mean. A low standard deviation means data points are close to the mean; a high one means they're spread out. The formula is $\\sigma = \\sqrt{\\frac{\\sum(x_i - \\mu)^2}{n}}$ where $\\mu$ is the mean. Intuitively, it's the average distance from the mean. Does that make sense?"
+            },
+            {
+                "role": "student",
+                "content": "kind of, can you give an example"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "messages": [
+            {
+                "role": "student",
+                "content": "SAT problem: a line passes through (2, 5) and has slope -3. what is the y-intercept?"
+            },
+            {
+                "role": "ai",
+                "content": "Use point-slope form! With point $(2, 5)$ and slope $m = -3$: $y - 5 = -3(x - 2)$. Now convert to slope-intercept form $y = mx + b$ to find the y-intercept. Can you simplify?"
+            },
+            {
+                "role": "student",
+                "content": "y - 5 = -3x + 6, so y = -3x + 11. the y-intercept is 11"
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "messages": [
+            {
+                "role": "student",
+                "content": "whats the difference between median and mean"
+            },
+            {
+                "role": "ai",
+                "content": "Mean is the average (sum divided by count). Median is the middle value when data is sorted. They can be very different! For example, in {1, 2, 3, 4, 100}, the mean is 22 but the median is 3. The median is more resistant to outliers. When would you use one over the other?"
+            },
+            {
+                "role": "student",
+                "content": "median when theres outliers i guess"
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "messages": [
+            {
+                "role": "student",
+                "content": "SAT problem: in a scatterplot, the line of best fit is y = 2.3x + 4.1. what does the 2.3 represent?"
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "messages": [
+            {
+                "role": "student",
+                "content": "a box plot shows Q1 = 25, median = 40, Q3 = 55. what is the interquartile range?"
+            },
+            {
+                "role": "ai",
+                "content": "The interquartile range (IQR) measures the spread of the middle 50% of data. It's simply $IQR = Q3 - Q1$. What do you get?"
+            },
+            {
+                "role": "student",
+                "content": "55 - 25 = 30"
+            },
+            {
+                "role": "ai",
+                "content": "Exactly! The IQR is 30. This is also useful for identifying outliers - any value below $Q1 - 1.5 \\times IQR$ or above $Q3 + 1.5 \\times IQR$ is considered an outlier. What would those boundaries be here?"
+            },
+            {
+                "role": "student",
+                "content": "below 25 - 45 = -20 or above 55 + 45 = 100"
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Solve $3(2x-5)=4x+7$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Distribute and solve:</p><ol><li>$3(2x-5)=6x-15$</li><li>Set equal: $6x-15=4x+7$</li><li>Subtract $4x$: $2x-15=7$</li><li>Add 15: $2x=22$</li><li>Divide by 2: $x=11$</li></ol>"
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "messages": [
+            {
+                "role": "student",
+                "content": "If $\\frac{a}{b}=\\frac{3}{4}$ and $b=28$, what is $a$?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Multiply both sides by $b$:</p><p>$a=\\frac{3}{4}b=\\frac{3}{4}\\cdot 28=21$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "messages": [
+            {
+                "role": "student",
+                "content": "A $\\$120$ jacket is discounted by 35%. What is the sale price?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>After a 35% discount, you pay 65% of the original price:</p><p>$120\\cdot 0.65=78$.</p><p>Sale price: $\\$78$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Simplify $\\frac{2x^3y^{-2}}{8x^{-1}y}$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Simplify coefficients and subtract exponents when dividing:</p><p>$\\frac{2}{8}=\\frac{1}{4}$, $x^{3-(-1)}=x^4$, and $y^{-2-1}=y^{-3}=\\frac{1}{y^3}$.</p><p>So $\\frac{2x^3y^{-2}}{8x^{-1}y}=\\frac{x^4}{4y^3}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Solve $x^2-5x-24=0$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Factor:</p><p>$x^2-5x-24=(x-8)(x+3)$.</p><p>Set each factor to 0: $x=8$ or $x=-3$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Use the quadratic formula to solve $2x^2+3x-2=0$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Quadratic formula: $x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$ with $a=2$, $b=3$, $c=-2$.</p><p>Discriminant: $b^2-4ac=9-4(2)(-2)=9+16=25$.</p><p>$x=\\frac{-3\\pm\\sqrt{25}}{4}=\\frac{-3\\pm 5}{4}$, so $x=\\frac{1}{2}$ or $x=-2$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "messages": [
+            {
+                "role": "student",
+                "content": "If $f(x)=2x^2-3x+1$, what is $f(-2)$?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Substitute $x=-2$:</p><p>$f(-2)=2(-2)^2-3(-2)+1=2\\cdot 4+6+1=15$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "messages": [
+            {
+                "role": "student",
+                "content": "What is the domain of $f(x)=\\frac{1}{x-7}$?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>The denominator cannot be 0. So exclude $x-7=0 \\Rightarrow x=7$.</p><p>Domain: all real numbers except $x=7$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Find the slope of the line through $(1,4)$ and $(7,-2)$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Slope $m=\\frac{y_2-y_1}{x_2-x_1}=\\frac{-2-4}{7-1}=\\frac{-6}{6}=-1$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "messages": [
+            {
+                "role": "student",
+                "content": "A line has slope $\\frac{3}{2}$ and passes through $(4,-1)$. Find its equation."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Use point-slope form:</p><p>$y-(-1)=\\frac{3}{2}(x-4)$.</p><p>Simplify: $y+1=\\frac{3}{2}x-6 \\Rightarrow y=\\frac{3}{2}x-7$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Solve the system $x+y=11$ and $2x-y=4$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Add the equations to eliminate $y$:</p><p>$(x+y)+(2x-y)=11+4 \\Rightarrow 3x=15 \\Rightarrow x=5$.</p><p>Then $y=11-x=6$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Solve the compound inequality $-3 \\le 2x+1 < 9$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Subtract 1 from all three parts:</p><p>$-4 \\le 2x < 8$.</p><p>Divide all three parts by 2:</p><p>$-2 \\le x < 4$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Solve $|x-6|<3$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>For $|x-6|<3$, write the compound inequality:</p><p>$-3<x-6<3$.</p><p>Add 6:</p><p>$3<x<9$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Simplify $\\sqrt{72}$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Factor out a perfect square:</p><p>$\\sqrt{72}=\\sqrt{36\\cdot 2}=6\\sqrt{2}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Rationalize the denominator: $\\frac{5}{\\sqrt{3}}$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Multiply top and bottom by $\\sqrt{3}$:</p><p>$\\frac{5}{\\sqrt{3}}\\cdot\\frac{\\sqrt{3}}{\\sqrt{3}}=\\frac{5\\sqrt{3}}{3}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Find the midpoint of the segment from $(8,-3)$ to $(2,9)$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Midpoint formula:</p><p>$\\left(\\frac{8+2}{2},\\frac{-3+9}{2}\\right)=(5,3)$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Find the distance between $(0,-1)$ and $(6,7)$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Distance formula:</p><p>$d=\\sqrt{(6-0)^2+(7-(-1))^2}=\\sqrt{6^2+8^2}=\\sqrt{100}=10$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "messages": [
+            {
+                "role": "student",
+                "content": "A circle has radius 9. What is its area?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Area of a circle is $A=\\pi r^2$.</p><p>So $A=\\pi\\cdot 9^2=81\\pi$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Write the equation of the circle with center $(2,-1)$ and radius 5."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Circle form: $(x-h)^2+(y-k)^2=r^2$.</p><p>With $(h,k)=(2,-1)$ and $r=5$:</p><p>$(x-2)^2+(y+1)^2=25$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "messages": [
+            {
+                "role": "student",
+                "content": "A cylinder has radius 4 and height 12. Find its volume."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Volume of a cylinder: $V=\\pi r^2h$.</p><p>$V=\\pi\\cdot 4^2\\cdot 12=\\pi\\cdot 16\\cdot 12=192\\pi$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "messages": [
+            {
+                "role": "student",
+                "content": "The mean of 5 numbers is 14. What is their sum?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Sum $=\\text{mean}\\times\\text{count}=14\\cdot 5=70$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Data set: 3, 3, 5, 7, 12, 12. Find the median."
+            },
+            {
+                "role": "ai",
+                "content": "<p>There are 6 values, so the median is the average of the 3rd and 4th values:</p><p>$\\text{median}=\\frac{5+7}{2}=6$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "messages": [
+            {
+                "role": "student",
+                "content": "A box plot has $Q_1=18$ and $Q_3=42$. What is the interquartile range?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>The interquartile range is $IQR=Q_3-Q_1$.</p><p>$IQR=42-18=24$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "messages": [
+            {
+                "role": "student",
+                "content": "A bag has 6 red and 4 blue marbles. If you pick one, what is $P(\\text{blue})$?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Total marbles: $6+4=10$.</p><p>$P(\\text{blue})=\\frac{4}{10}=\\frac{2}{5}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Two fair coins are flipped. What is the probability of exactly one head?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Sample space (4 equally likely outcomes): $\\{HH,HT,TH,TT\\}$.</p><p>Exactly one head: $HT$ or $TH$ (2 outcomes).</p><p>Probability $=\\frac{2}{4}=\\frac{1}{2}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "messages": [
+            {
+                "role": "student",
+                "content": "If $P(A)=0.6$, $P(B)=0.5$, and $P(A\\cap B)=0.3$, what is $P(A\\cup B)$?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Use inclusion-exclusion:</p><p>$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)=0.6+0.5-0.3=0.8$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "messages": [
+            {
+                "role": "student",
+                "content": "How many permutations of 5 different books are there?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Permutations of 5 distinct items: $5!=5\\cdot 4\\cdot 3\\cdot 2\\cdot 1=120$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "messages": [
+            {
+                "role": "student",
+                "content": "The line of best fit is $y=2.1x+3.7$. What does the 2.1 mean?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>The slope 2.1 means that for each increase of 1 unit in $x$, the predicted value of $y$ increases by about 2.1 units.</p>"
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "messages": [
+            {
+                "role": "student",
+                "content": "A scatterplot shows a strong negative association. What does that mean?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>It means that as $x$ increases, $y$ tends to decrease, and the points cluster closely around a downward-sloping pattern (strong relationship).</p>"
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "messages": [
+            {
+                "role": "student",
+                "content": "The value of an investment grows by 8% each year. If it starts at $\\$500$, what is its value after 3 years?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Exponential growth model: $V=500(1.08)^3$.</p><p>$V\\approx 500\\cdot 1.259712\\approx 629.86$.</p><p>So about $\\$629.86$ (roughly $\\$630$).</p>"
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Evaluate the piecewise function $f(x)=\\begin{cases}2x+1 & x<0\\\\ x^2 & x\\ge 0\\end{cases}$ at $x=-3$ and $x=4$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>For $x=-3$ (which is $<0$), use $2x+1$:</p><p>$f(-3)=2(-3)+1=-6+1=-5$.</p><p>For $x=4$ (which is $\\ge 0$), use $x^2$:</p><p>$f(4)=4^2=16$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Find the inverse of $f(x)=3x-7$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Let $y=3x-7$ and solve for $x$:</p><p>$y+7=3x \\Rightarrow x=\\frac{y+7}{3}$.</p><p>Swap variables: $f^{-1}(x)=\\frac{x+7}{3}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Find the vertical asymptote of $f(x)=\\frac{x+1}{x-4}$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>A vertical asymptote occurs where the denominator is 0 (and not canceled).</p><p>$x-4=0 \\Rightarrow x=4$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Solve the proportion $\\frac{x}{15}=\\frac{8}{5}$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Multiply both sides by 15:</p><p>$x=15\\cdot\\frac{8}{5}=3\\cdot 8=24$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Two angles are complementary. If one angle is $37^\\circ$, what is the other?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Complementary angles sum to $90^\\circ$.</p><p>Other angle $=90-37=53^\\circ$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "messages": [
+            {
+                "role": "student",
+                "content": "The sum of interior angles of a polygon is $1260^\\circ$. How many sides does it have?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Use $(n-2)\\cdot 180=1260$.</p><p>$n-2=7 \\Rightarrow n=9$ sides.</p>"
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Two similar triangles have a scale factor of 3 (larger to smaller). If the smaller perimeter is 18, what is the larger perimeter?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Perimeters scale by the same factor as side lengths.</p><p>Larger perimeter $=3\\cdot 18=54$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "messages": [
+            {
+                "role": "student",
+                "content": "In a right triangle, $\\sin\\theta=\\frac{5}{13}$ for an acute angle. Find $\\cos\\theta$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>If $\\sin\\theta=\\frac{\\text{opp}}{\\text{hyp}}=\\frac{5}{13}$, take opposite $=5$ and hypotenuse $=13$.</p><p>Adjacent $=\\sqrt{13^2-5^2}=\\sqrt{169-25}=\\sqrt{144}=12$.</p><p>So $\\cos\\theta=\\frac{12}{13}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Convert 2.5 hours to minutes."
+            },
+            {
+                "role": "ai",
+                "content": "<p>There are 60 minutes in 1 hour:</p><p>$2.5\\text{ hr}\\times 60\\frac{\\text{min}}{\\text{hr}}=150\\text{ min}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Simplify $(3+2i)(4-i)$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Multiply (FOIL):</p><p>$(3+2i)(4-i)=12-3i+8i-2i^2$.</p><p>Since $i^2=-1$, $-2i^2=2$.</p><p>So the result is $14+5i$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "messages": [
+            {
+                "role": "student",
+                "content": "For what value of $k$ does the equation $(k-2)x=10$ have no solution?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>A linear equation $ax=b$ has no solution if $a=0$ but $b\\ne 0$.</p><p>So set $k-2=0 \\Rightarrow k=2$.</p><p>Then the equation becomes $0\\cdot x=10$, which is impossible.</p>"
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Rewrite $y=x^2-6x+5$ in vertex form."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Complete the square:</p><p>$y=x^2-6x+5=(x^2-6x+9)-9+5=(x-3)^2-4$.</p><p>Vertex form: $y=(x-3)^2-4$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "messages": [
+            {
+                "role": "student",
+                "content": "A parabola $y=(x+2)^2-9$ opens upward. What is its vertex?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Vertex form is $y=(x-h)^2+k$ with vertex $(h,k)$.</p><p>Here $x+2=x-(-2)$, so $h=-2$ and $k=-9$.</p><p>Vertex: $(-2,-9)$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "messages": [
+            {
+                "role": "student",
+                "content": "A quadratic has maximum value 7 at $x=2$. Write an equation in vertex form."
+            },
+            {
+                "role": "ai",
+                "content": "<p>If the maximum is 7 at $x=2$, the vertex is $(2,7)$ and the parabola opens downward.</p><p>A simplest choice is $y=-(x-2)^2+7$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "messages": [
+            {
+                "role": "student",
+                "content": "A box plot has $Q_1=20$, $Q_3=44$. Find the outlier boundaries using the $1.5\\times IQR$ rule."
+            },
+            {
+                "role": "ai",
+                "content": "<p>First compute $IQR=Q_3-Q_1=44-20=24$.</p><p>$1.5\\times IQR=1.5\\times 24=36$.</p><p>Lower boundary: $Q_1-36=20-36=-16$.</p><p>Upper boundary: $Q_3+36=44+36=80$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Solve for $y$ in terms of $x$: $3x+2y=14$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Isolate $y$:</p><p>$2y=14-3x \\Rightarrow y=\\frac{14-3x}{2}=-\\frac{3}{2}x+7$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "messages": [
+            {
+                "role": "student",
+                "content": "If $f(x)$ is linear and $f(1)=4$ and $f(5)=12$, find $f(0)$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Slope: $m=\\frac{12-4}{5-1}=\\frac{8}{4}=2$.</p><p>So $f(x)=2x+b$. Use $f(1)=4$:</p><p>$4=2(1)+b \\Rightarrow b=2$.</p><p>Thus $f(0)=2$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Arithmetic sequence starts 11, 7, 3, ... What is the 15th term?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Common difference $d=7-11=-4$.</p><p>Formula: $a_n=a_1+(n-1)d$.</p><p>$a_{15}=11+(15-1)(-4)=11-56=-45$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Geometric sequence starts 6, 18, 54, ... What is the 8th term?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Common ratio $r=\\frac{18}{6}=3$.</p><p>Formula: $a_n=a_1r^{n-1}$.</p><p>$a_8=6\\cdot 3^{7}=6\\cdot 2187=13122$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Solve $\\sqrt{x-1}=5$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Square both sides:</p><p>$x-1=25 \\Rightarrow x=26$.</p><p>Check: $\\sqrt{26-1}=\\sqrt{25}=5$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "messages": [
+            {
+                "role": "student",
+                "content": "A taxi charges $\\$3$ plus $\\$2$ per mile. Write an equation for cost $C$ after $m$ miles."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Fixed fee is 3 and rate is 2 per mile:</p><p>$C=3+2m$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "messages": [
+            {
+                "role": "student",
+                "content": "A solution is made by mixing 2 liters of 10% salt with 3 liters of 30% salt. What percent salt is the mixture?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Amount of salt:</p><p>$2(0.10)+3(0.30)=0.2+0.9=1.1$ liters of salt.</p><p>Total volume: $2+3=5$ liters.</p><p>Percent salt: $\\frac{1.1}{5}=0.22=22\\%$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "messages": [
+            {
+                "role": "student",
+                "content": "If $y$ varies directly with $x$ and $y=18$ when $x=6$, find $y$ when $x=10$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Direct variation: $y=kx$.</p><p>$18=6k \\Rightarrow k=3$.</p><p>When $x=10$, $y=3\\cdot 10=30$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "messages": [
+            {
+                "role": "student",
+                "content": "If $y$ varies inversely with $x$ and $y=4$ when $x=3$, find $y$ when $x=12$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Inverse variation: $y=\\frac{k}{x}$.</p><p>$4=\\frac{k}{3} \\Rightarrow k=12$.</p><p>When $x=12$, $y=\\frac{12}{12}=1$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "messages": [
+            {
+                "role": "student",
+                "content": "For $x^2-9x+14=0$, find the sum and product of the roots."
+            },
+            {
+                "role": "ai",
+                "content": "<p>For $ax^2+bx+c=0$, sum of roots is $-\\frac{b}{a}$ and product is $\\frac{c}{a}$.</p><p>Here $a=1$, $b=-9$, $c=14$.</p><p>Sum $=9$, product $=14$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Describe the transformation from $y=x^2$ to $y=(x-4)^2+3$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>$y=(x-4)^2+3$ shifts the graph of $y=x^2$:</p><ul><li>4 units right (because of $x-4$)</li><li>3 units up (because of $+3$)</li></ul>"
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Solve $3^{x}=81$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Write 81 as a power of 3:</p><p>$81=3^4$.</p><p>So $3^x=3^4 \\Rightarrow x=4$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "messages": [
+            {
+                "role": "student",
+                "content": "A right triangle has legs 9 and 12. Find the hypotenuse."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Pythagorean theorem:</p><p>$c=\\sqrt{9^2+12^2}=\\sqrt{81+144}=\\sqrt{225}=15$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "messages": [
+            {
+                "role": "student",
+                "content": "One machine makes 1 part every 6 minutes. Another makes 1 part every 10 minutes. Working together, how long to make 1 part?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Add rates:</p><p>Machine A rate $=\\frac{1}{6}$ part/min, Machine B rate $=\\frac{1}{10}$ part/min.</p><p>Combined rate $=\\frac{1}{6}+\\frac{1}{10}=\\frac{5}{30}+\\frac{3}{30}=\\frac{8}{30}=\\frac{4}{15}$ part/min.</p><p>Time for 1 part $=\\frac{1}{4/15}=\\frac{15}{4}=3.75$ minutes.</p>"
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Solve the inequality $x^2-4x-5>0$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Factor: $x^2-4x-5=(x-5)(x+1)$.</p><p>The product is positive when both factors have the same sign, so:</p><ul><li>$x>5$ (both positive)</li><li>$x<-1$ (both negative)</li></ul><p>Solution: $(-\\infty,-1)\\cup(5,\\infty)$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Solve $\\sin\\theta=\\frac{1}{2}$ for $0\\le\\theta<2\\pi$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>On the unit circle, $\\sin\\theta=\\frac{1}{2}$ at reference angle $\\frac{\\pi}{6}$ in Quadrants I and II.</p><p>So $\\theta=\\frac{\\pi}{6}$ and $\\theta=\\frac{5\\pi}{6}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Verify the identity $1+\\tan^2\\theta=\\sec^2\\theta$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Start with the Pythagorean identity $\\sin^2\\theta+\\cos^2\\theta=1$.</p><p>Divide both sides by $\\cos^2\\theta$:</p><p>$\\frac{\\sin^2\\theta}{\\cos^2\\theta}+\\frac{\\cos^2\\theta}{\\cos^2\\theta}=\\frac{1}{\\cos^2\\theta}$.</p><p>This becomes $\\tan^2\\theta+1=\\sec^2\\theta$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 111,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Find the amplitude and period of $y=4\\cos(3x)$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>For $y=A\\cos(Bx)$:</p><ul><li>Amplitude $=|A|$</li><li>Period $=\\frac{2\\pi}{|B|}$</li></ul><p>Here $A=4$ and $B=3$, so amplitude is 4 and period is $\\frac{2\\pi}{3}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 112,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Find $f^{-1}(x)$ for $f(x)=\\frac{x+1}{5}$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Let $y=\\frac{x+1}{5}$. Solve for $x$:</p><p>$5y=x+1 \\Rightarrow x=5y-1$.</p><p>Swap variables: $f^{-1}(x)=5x-1$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 113,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Use the Law of Sines to find side $a$ if $A=30^\\circ$, $B=60^\\circ$, and $b=10$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Law of Sines: $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$.</p><p>So $a=b\\cdot\\frac{\\sin A}{\\sin B}=10\\cdot\\frac{\\sin 30^\\circ}{\\sin 60^\\circ}=10\\cdot\\frac{\\frac{1}{2}}{\\frac{\\sqrt{3}}{2}}=\\frac{10}{\\sqrt{3}}=\\frac{10\\sqrt{3}}{3}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 114,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Use the Law of Cosines to find side $c$ if $a=7$, $b=9$, and $C=60^\\circ$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Law of Cosines: $c^2=a^2+b^2-2ab\\cos C$.</p><p>$c^2=7^2+9^2-2(7)(9)\\cos 60^\\circ=49+81-126\\cdot\\frac{1}{2}=130-63=67$.</p><p>So $c=\\sqrt{67}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 115,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Write $\\frac{3}{1-i}$ in $a+bi$ form."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Multiply numerator and denominator by the conjugate $1+i$:</p><p>$\\frac{3}{1-i}\\cdot\\frac{1+i}{1+i}=\\frac{3(1+i)}{(1-i)(1+i)}$.</p><p>Denominator: $(1-i)(1+i)=1-i^2=2$.</p><p>So $\\frac{3}{1-i}=\\frac{3(1+i)}{2}=\\frac{3}{2}+\\frac{3}{2}i$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Find all zeros of $p(x)=x^3-4x^2-x+4$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Factor by grouping:</p><p>$x^3-4x^2-x+4=x^2(x-4)-1(x-4)=(x^2-1)(x-4)$.</p><p>Then $x^2-1=(x-1)(x+1)$.</p><p>Zeros: $x=4,\\,1,\\,-1$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 117,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Solve $\\log_3(x)+\\log_3(x-2)=2$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Combine logs: $\\log_3(x(x-2))=2$.</p><p>Rewrite: $x(x-2)=3^2=9$.</p><p>$x^2-2x-9=0$.</p><p>$x=\\frac{2\\pm\\sqrt{4+36}}{2}=1\\pm\\sqrt{10}$.</p><p>Domain requires $x>0$ and $x-2>0$ so $x>2$, so the solution is $x=1+\\sqrt{10}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 118,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Find the sum of the geometric series $5+\\frac{5}{2}+\\frac{5}{4}+\\cdots$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>This is an infinite geometric series with first term $a=5$ and ratio $r=\\frac{1}{2}$.</p><p>Since $|r|<1$, the sum is $S=\\frac{a}{1-r}=\\frac{5}{1-\\frac{1}{2}}=\\frac{5}{\\frac{1}{2}}=10$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 119,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Compute $\\lim_{x\\to 2}(x^2+3x-1)$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Polynomials are continuous, so substitute $x=2$:</p><p>$2^2+3(2)-1=4+6-1=9$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 120,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Evaluate $\\lim_{x\\to 0}\\frac{\\sin(5x)}{x}$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Rewrite:</p><p>$\\frac{\\sin(5x)}{x}=5\\cdot\\frac{\\sin(5x)}{5x}$.</p><p>Since $\\lim_{u\\to 0}\\frac{\\sin u}{u}=1$, the limit is $5\\cdot 1=5$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 121,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Differentiate $f(x)=\\frac{x^2+1}{x}$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Simplify first: $f(x)=x+\\frac{1}{x}$.</p><p>Then $f'(x)=1-\\frac{1}{x^2}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 122,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Find $\\frac{d}{dx}(x^3\\ln x)$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Use the product rule:</p><p>$\\frac{d}{dx}(x^3\\ln x)=3x^2\\ln x + x^3\\cdot\\frac{1}{x}$.</p><p>Simplify: $3x^2\\ln x + x^2 = x^2(3\\ln x+1)$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 123,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Implicitly differentiate $x^2+y^2=25$ and find $\\frac{dy}{dx}$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Differentiate both sides:</p><p>$2x+2y\\frac{dy}{dx}=0$.</p><p>Solve for $\\frac{dy}{dx}$:</p><p>$2y\\frac{dy}{dx}=-2x \\Rightarrow \\frac{dy}{dx}=-\\frac{x}{y}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 124,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Find the tangent line to $y=\\sqrt{x}$ at $x=9$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>$y=x^{1/2}$ so $y'=\\frac{1}{2}x^{-1/2}=\\frac{1}{2\\sqrt{x}}$.</p><p>At $x=9$, slope $m=\\frac{1}{2\\cdot 3}=\\frac{1}{6}$ and point is $(9,3)$.</p><p>Tangent line: $y-3=\\frac{1}{6}(x-9)$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 125,
+        "messages": [
+            {
+                "role": "student",
+                "content": "A circle's radius increases at $\\frac{dr}{dt}=0.5$ cm/s. How fast is the area increasing when $r=10$?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Area $A=\\pi r^2$.</p><p>Differentiate: $\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}$.</p><p>At $r=10$ and $\\frac{dr}{dt}=0.5$:</p><p>$\\frac{dA}{dt}=2\\pi(10)(0.5)=10\\pi$ cm$^2$/s.</p>"
+            }
+        ]
+    },
+    {
+        "id": 126,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Find the absolute maximum of $f(x)=-x^2+4x+1$ on $[0,5]$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Find critical points: $f'(x)=-2x+4$.</p><p>Set $f'(x)=0$: $-2x+4=0 \\Rightarrow x=2$.</p><p>Evaluate at endpoints and critical point:</p><ul><li>$f(0)=1$</li><li>$f(2)=-4+8+1=5$</li><li>$f(5)=-25+20+1=-4$</li></ul><p>Absolute maximum is 5 at $x=2$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 127,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Compute $\\int 3x^2\\,dx$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Use the power rule for integrals:</p><p>$\\int 3x^2\\,dx=3\\cdot\\frac{x^3}{3}+C=x^3+C$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 128,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Evaluate $\\int_1^3 (2x-1)\\,dx$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Antiderivative of $2x-1$ is $x^2-x$.</p><p>Evaluate:</p><p>$(3^2-3)-(1^2-1)=(9-3)-(1-1)=6-0=6$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 129,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Use substitution to compute $\\int 2x\\cos(x^2)\\,dx$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Let $u=x^2$, so $du=2x\\,dx$.</p><p>The integral becomes $\\int \\cos(u)\\,du=\\sin(u)+C$.</p><p>Substitute back: $\\sin(x^2)+C$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 130,
+        "messages": [
+            {
+                "role": "student",
+                "content": "If $F(x)=\\int_0^x (t^3+2)\\,dt$, find $F'(x)$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>By the Fundamental Theorem of Calculus,</p><p>$F'(x)=x^3+2$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 131,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Determine whether $\\sum_{n=1}^{\\infty}\\frac{1}{n^3}$ converges."
+            },
+            {
+                "role": "ai",
+                "content": "<p>This is a $p$-series with $p=3>1$, so it converges.</p>"
+            }
+        ]
+    },
+    {
+        "id": 132,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Find the first three nonzero terms of the Maclaurin series for $\\sin x$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Maclaurin series for $\\sin x$:</p><p>$\\sin x = x-\\frac{x^3}{3!}+\\frac{x^5}{5!}-\\cdots$.</p><p>First three nonzero terms: $x-\\frac{x^3}{6}+\\frac{x^5}{120}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 133,
+        "messages": [
+            {
+                "role": "student",
+                "content": "For parametric equations $x=t^2$ and $y=3t-1$, find $\\frac{dy}{dx}$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>$\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}$.</p><p>$\\frac{dy}{dt}=3$ and $\\frac{dx}{dt}=2t$.</p><p>So $\\frac{dy}{dx}=\\frac{3}{2t}$ (for $t\\ne 0$).</p>"
+            }
+        ]
+    },
+    {
+        "id": 134,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Use Euler's method with step size $h=1$ to approximate $y(1)$ if $y'=x+y$ and $y(0)=1$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Euler update: $y_{n+1}=y_n+h\\,f(x_n,y_n)$ with $f(x,y)=x+y$.</p><p>Start: $(x_0,y_0)=(0,1)$.</p><p>$y_1=1+1\\cdot f(0,1)=1+(0+1)=2$.</p><p>So $y(1)\\approx 2$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 135,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Interpret a 90% confidence interval for a population proportion of (0.42, 0.58)."
+            },
+            {
+                "role": "ai",
+                "content": "<p>We are 90% confident that the true population proportion lies between 0.42 and 0.58.</p>"
+            }
+        ]
+    },
+    {
+        "id": 136,
+        "messages": [
+            {
+                "role": "student",
+                "content": "When should you use a $t$-distribution instead of a $z$-distribution for inference about a mean?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Use a $t$-distribution when the population standard deviation $\\sigma$ is unknown and you use the sample standard deviation $s$ in its place (especially for small to moderate sample sizes).</p>"
+            }
+        ]
+    },
+    {
+        "id": 137,
+        "messages": [
+            {
+                "role": "student",
+                "content": "If a sample of size $n=64$ has mean 80 and population standard deviation 12, what is the standard error of the mean?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Standard error for the mean (when $\\sigma$ is known):</p><p>$SE=\\frac{\\sigma}{\\sqrt{n}}=\\frac{12}{\\sqrt{64}}=\\frac{12}{8}=1.5$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 138,
+        "messages": [
+            {
+                "role": "student",
+                "content": "State the Central Limit Theorem for sample means."
+            },
+            {
+                "role": "ai",
+                "content": "<p>If the sample size $n$ is large (or the population is normal), the sampling distribution of the sample mean $\\bar{x}$ is approximately normal with</p><p>mean $\\mu_{\\bar{x}}=\\mu$ and standard deviation $\\sigma_{\\bar{x}}=\\frac{\\sigma}{\\sqrt{n}}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 139,
+        "messages": [
+            {
+                "role": "student",
+                "content": "What is a p-value?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>A p-value is the probability, assuming the null hypothesis is true, of getting a test statistic (or result) at least as extreme as the one observed.</p>"
+            }
+        ]
+    },
+    {
+        "id": 140,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Define Type I and Type II error."
+            },
+            {
+                "role": "ai",
+                "content": "<p><strong>Type I error:</strong> rejecting a true null hypothesis (false positive).</p><p><strong>Type II error:</strong> failing to reject a false null hypothesis (false negative).</p>"
+            }
+        ]
+    },
+    {
+        "id": 141,
+        "messages": [
+            {
+                "role": "student",
+                "content": "A normal distribution has mean 100 and standard deviation 15. Find the z-score for $x=130$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>$z=\\frac{x-\\mu}{\\sigma}=\\frac{130-100}{15}=\\frac{30}{15}=2$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 142,
+        "messages": [
+            {
+                "role": "student",
+                "content": "If $Z\\sim N(0,1)$, what is $P(Z< -1)$ (approximately)?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>From a standard normal table, $P(Z<-1)\\approx 0.1587$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 143,
+        "messages": [
+            {
+                "role": "student",
+                "content": "A fair coin is flipped 20 times. Let $X$ be the number of heads. Find $E[X]$ and $\\mathrm{Var}(X)$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>$X\\sim\\text{Binomial}(n=20,p=0.5)$.</p><p>Mean: $E[X]=np=20(0.5)=10$.</p><p>Variance: $\\mathrm{Var}(X)=np(1-p)=20(0.5)(0.5)=5$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 144,
+        "messages": [
+            {
+                "role": "student",
+                "content": "In regression, what does $r^2$ represent?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>$r^2$ is the proportion of variability in the response variable $y$ that is explained by the linear relationship with the explanatory variable $x$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 145,
+        "messages": [
+            {
+                "role": "student",
+                "content": "What is a residual in linear regression?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>A residual is the difference between an observed value and the predicted value from the regression line:</p><p>$\\text{residual}=y-\\hat{y}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 146,
+        "messages": [
+            {
+                "role": "student",
+                "content": "Events $A$ and $B$ are independent. If $P(A)=0.4$ and $P(B)=0.7$, find $P(A\\cap B)$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>For independent events, $P(A\\cap B)=P(A)P(B)$.</p><p>$P(A\\cap B)=0.4\\cdot 0.7=0.28$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 147,
+        "messages": [
+            {
+                "role": "student",
+                "content": "If $P(A)=0.2$ and $P(B)=0.5$ with $P(A\\cap B)=0.1$, find $P(A\\mid B)$."
+            },
+            {
+                "role": "ai",
+                "content": "<p>Conditional probability:</p><p>$P(A\\mid B)=\\frac{P(A\\cap B)}{P(B)}=\\frac{0.1}{0.5}=0.2$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 148,
+        "messages": [
+            {
+                "role": "student",
+                "content": "What does it mean if a sampling method is biased?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>A biased sampling method systematically favors certain outcomes or groups, so the sample is not representative of the population.</p>"
+            }
+        ]
+    },
+    {
+        "id": 149,
+        "messages": [
+            {
+                "role": "student",
+                "content": "For a proportion, what happens to margin of error when sample size increases?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Margin of error decreases as sample size increases because standard error shrinks like $\\frac{1}{\\sqrt{n}}$.</p>"
+            }
+        ]
+    },
+    {
+        "id": 150,
+        "messages": [
+            {
+                "role": "student",
+                "content": "A chi-square test is used for what kinds of questions?"
+            },
+            {
+                "role": "ai",
+                "content": "<p>Chi-square tests are used for categorical data, such as:</p><ul><li>Goodness-of-fit (does a distribution match expected proportions?)</li><li>Independence/association (are two categorical variables related?)</li></ul>"
+            }
+        ]
+    }
+]
